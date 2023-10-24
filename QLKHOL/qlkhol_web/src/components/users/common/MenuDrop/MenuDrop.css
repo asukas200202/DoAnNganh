@@ -1,0 +1,84 @@
+.MenuDrop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-title {
+    color: black;
+}
+
+.dropdown-title h2{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+
+.MenuDrop .dropdown-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 0px 8px;
+    color: white;
+    font-size: 16px;
+}
+
+.MenuDrop .dropdown-button i {
+    font-size:18px!important;
+}
+
+.MenuDrop .dropdown-container {
+    width: 72vw;
+    height: 400px;
+    background-color: #FFFFFF;  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    z-index: 1000;
+    top: 70px;
+    padding: 40px 20px;
+}
+
+.dropdown-button:hover + .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+
+.MenuDrop .dropdown-container .category-list {
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.MenuDrop .dropdown-container .category-list .category-item {
+    background-color: #ECECEC;
+    height: 40px;
+    padding: 0px 18px;
+    overflow: auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    transition: background-color 0.21s;
+}
+
+.MenuDrop .dropdown-container .category-list .category-item.selected {
+    background-color: rgba(186, 124, 8, 0.772);
+    color: white;
+}
+
+.MenuDrop .dropdown-container .category-list .category-item:hover {
+    background-color: rgba(186, 124, 8, 0.772);
+    color: white;
+}

@@ -1,0 +1,183 @@
+.UserManagement {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.UserManagement .UserManagement-nav {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 20px;
+}
+
+.UserManagement .UserManagement-nav .UserManagement-filter .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.UserManagement .UserManagement-nav .UserManagement-filter .search-bar .select-options {
+    width: 150px;
+    font-size: 14px;
+}
+.UserManagement .UserManagement-nav .UserManagement-filter .search-bar .input-search {
+    min-width: 450px;
+    height: 38px;
+    padding: 4px 10px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.UserManagement .UserManagement-nav .UserManagement-filter .search-bar i {
+    position: absolute;
+    right: 5px;
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.UserManagement .UserManagement-nav .UserManagement-create {
+    background-color: rgba(57, 134, 10, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 31px;
+    padding: 0px 12px;
+    gap: 4px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.UserManagement-create i {
+    font-size: 24px;
+    color: white;
+}
+
+.UserManagement-create button {
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+}
+
+.UserManagement-content {
+    width: 100%;
+    flex-grow: 1;
+
+    margin-top: 10px;
+
+}
+
+.UserManagement-content .UM-table {
+
+}
+
+.UserManagement-content .UM-table .UM-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #7a7d7d;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.UserManagement-content .UM-table .UM-header .U-name {
+    flex-basis: 30%;
+}
+
+.UserManagement-content .UM-table .UM-header .U-email {
+    flex-basis: 30%;
+}
+
+
+.UserManagement-content .UM-table .UM-header .U-password {
+    flex-basis: 30%;
+}
+
+.UserManagement-content .UM-table .UM-header .U-role {
+    flex-basis: 10%;
+    text-align: end;
+}
+
+
+
+.UserManagement-content .UM-table .UM-body {
+    width: 100%;
+    max-height: 400px;
+    overflow: auto;
+}
+
+/* width */
+.UserManagement-content .UM-table .UM-body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .UserManagement-content .UM-table .UM-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .UserManagement-content .UM-table .UM-body::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .UserManagement-content .UM-table .UM-body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+.UserManagement-content .UM-table .U-item{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.UserManagement-content .UM-table .U-item:hover {
+    background-color: #ecececb2;
+}
+
+.UserManagement-content .UM-table .UM-body .U-name {
+    flex-basis: 30%;
+}
+
+.UserManagement-content .UM-table .UM-body .U-email {
+    flex-basis: 30%;
+}
+
+.UserManagement-content .UM-table .UM-body .U-password {
+    flex-basis: 30%;
+}
+
+.UserManagement-content .UM-table .UM-body .U-role {
+    flex-basis: 10%;
+    text-align: end;
+}
+
+.UserManagement-create-container {
+    position: relative;
+    z-index: 1000;
+}
+
+
+

@@ -1,0 +1,159 @@
+.CategoryManagement {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.CategoryManagement .CategoryManagement-nav {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 20px;
+}
+
+.CategoryManagement .CategoryManagement-nav .CategoryManagement-filter .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.CategoryManagement .CategoryManagement-nav .CategoryManagement-filter .search-bar .select-options {
+    width: 150px;
+    font-size: 14px;
+}
+.CategoryManagement .CategoryManagement-nav .CategoryManagement-filter .search-bar .input-search {
+    min-width: 450px;
+    height: 38px;
+    padding: 4px 10px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.CategoryManagement .CategoryManagement-nav .CategoryManagement-filter .search-bar i {
+    position: absolute;
+    right: 5px;
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.CategoryManagement .CategoryManagement-nav .CategoryManagement-create {
+    background-color: rgba(57, 134, 10, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 31px;
+    padding: 0px 12px;
+    gap: 4px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.CategoryManagement-create i {
+    font-size: 24px;
+    color: white;
+}
+
+.CategoryManagement-create button {
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+}
+
+.CategoryManagement-content {
+    width: 100%;
+    flex-grow: 1;
+
+    margin-top: 10px;
+
+}
+
+.CategoryManagement-content .CM-table {
+
+}
+
+.CategoryManagement-content .CM-table .CM-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #7a7d7d;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.CategoryManagement-content .CM-table .CM-header .C-name {
+    flex-basis: 100%;
+}
+
+
+
+.CategoryManagement-content .CM-table .CM-body {
+    width: 100%;
+    max-height: 400px;
+    overflow: auto;
+}
+
+/* width */
+.CategoryManagement-content .CM-table .CM-body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .CategoryManagement-content .CM-table .CM-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .CategoryManagement-content .CM-table .CM-body::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .CategoryManagement-content .CM-table .CM-body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+.CategoryManagement-content .CM-table .C-item{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.CategoryManagement-content .CM-table .C-item:hover {
+    background-color: #ecececb2;
+}
+
+.CategoryManagement-content .CM-table .CM-body .C-name {
+    flex-basis: 30%;
+}
+
+
+.CategoryManagement-create-container {
+    position: relative;
+    z-index: 1000;
+}
+
+
+
+
+

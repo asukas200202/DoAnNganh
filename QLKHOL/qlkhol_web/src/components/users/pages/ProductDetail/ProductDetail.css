@@ -1,0 +1,134 @@
+.ProductDetail {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductDetail .banner {
+    width: 100%;
+    height: 50vh;
+    background-image:
+    linear-gradient(
+      to top right, 
+      #FEE0A5, #FFF6E5
+    );
+    position: relative;
+    overflow: hidden;
+}
+
+.ProductDetail .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: translateY(25%);
+}
+
+.ProductDetail .banner .title {
+    position: absolute;
+    top: 0;
+    width: 70%;
+    padding: 0px 5%;
+    top: 20%;
+}
+
+.ProductDetail .banner .title .name {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1d1e22;
+    line-height: 40px;
+}
+
+.ProductDetail .banner .title .short-desc p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d1e22;
+    padding: 16px 0px;
+}
+
+
+.ProductDetail .main {
+    width: 100%;
+    display: flex;
+    gap: 0px;
+
+    position: relative;
+  
+}
+
+.ProductDetail .main .infomation {
+    flex-basis: 75%;
+    flex-shrink: 1;
+    min-width: 75%;
+
+}
+.ProductDetail .main .course-actions {
+    width: 25%;
+
+    z-index: 100;
+    top: -46%;
+    right: 0;
+}
+
+.ProductDetail .main .course-actions .card-action{
+    width: 80%;
+    background-color: white;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 15%;
+    border-radius: 30px;
+    transform: translateY(-30%);
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.ProductDetail .main .course-actions .card-action .image {
+    height: 40%;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.ProductDetail .main .course-actions .card-action .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ProductDetail .main .course-actions .card-action .price {
+    color: #C89F65;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.ProductDetail .main .course-actions .card-action .btn-groups {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.ProductDetail .main .course-actions .card-action .btn-groups .add-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid #333;
+    font-weight: 700;
+}
+
+.ProductDetail .main .course-actions .card-action .btn-groups .buy-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 700;
+}

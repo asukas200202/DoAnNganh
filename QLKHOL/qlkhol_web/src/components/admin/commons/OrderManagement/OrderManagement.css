@@ -1,0 +1,192 @@
+.OrderManagement {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.OrderManagement .OrderManagement-nav {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 20px;
+}
+
+.OrderManagement .OrderManagement-nav .OrderManagement-filter .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.OrderManagement .OrderManagement-nav .OrderManagement-filter .search-bar .select-options {
+    width: 150px;
+    font-size: 14px;
+}
+.OrderManagement .OrderManagement-nav .OrderManagement-filter .search-bar .input-search {
+    min-width: 450px;
+    height: 38px;
+    padding: 4px 10px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.OrderManagement .OrderManagement-nav .OrderManagement-filter .search-bar i {
+    position: absolute;
+    right: 5px;
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.OrderManagement .OrderManagement-nav .OrderManagement-create {
+    background-color: rgba(57, 134, 10, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 31px;
+    padding: 0px 12px;
+    gap: 4px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.OrderManagement-create i {
+    font-size: 24px;
+    color: white;
+}
+
+.OrderManagement-create button {
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+}
+
+.OrderManagement-content {
+    width: 100%;
+    flex-grow: 1;
+
+    margin-top: 10px;
+
+}
+
+.OrderManagement-content .OM-table {
+
+}
+
+.OrderManagement-content .OM-table .OM-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #7a7d7d;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.OrderManagement-content .OM-table .OM-header .O-code {
+    flex-basis: 15%;
+}
+
+.OrderManagement-content .OM-table .OM-header .O-email {
+    flex-basis: 30%;
+}
+
+.OrderManagement-content .OM-table .OM-header .O-price {
+    flex-basis: 25%;
+}
+
+.OrderManagement-content .OM-table .OM-header .O-status {
+    flex-basis: 20%;
+}
+
+.OrderManagement-content .OM-table .OM-header .O-create-at {
+    flex-basis: 10%;
+    text-align: end;
+}
+
+
+
+
+.OrderManagement-content .OM-table .OM-body {
+    width: 100%;
+    max-height: 400px;
+    overflow: auto;
+}
+
+/* width */
+.OrderManagement-content .OM-table .OM-body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .OrderManagement-content .OM-table .OM-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .OrderManagement-content .OM-table .OM-body::-webkit-scrollbar-thOMb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .OrderManagement-content .OM-table .OM-body::-webkit-scrollbar-thOMb:hover {
+    background: #555;
+  }
+
+
+.OrderManagement-content .OM-table .O-item{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.OrderManagement-content .OM-table .O-item:hover {
+    background-color: #ecececb2;
+}
+
+.OrderManagement-content .OM-table .OM-body .O-code {
+    flex-basis: 15%;
+}
+
+.OrderManagement-content .OM-table .OM-body .O-email {
+    flex-basis: 30%;
+}
+
+.OrderManagement-content .OM-table .OM-body .O-price {
+    flex-basis: 25%;
+}
+
+.OrderManagement-content .OM-table .OM-body .O-status {
+    flex-basis: 20%;
+
+}
+
+.OrderManagement-content .OM-table .OM-body .O-create-at {
+    flex-basis: 10%;
+    text-align: end;
+}
+
+.OrderManagement-create-container {
+    position: relative;
+    z-index: 1000;
+}
+
+
+

@@ -1,0 +1,198 @@
+.ProductView {
+    position: relative;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.ProductView .title {
+    position: absolute;
+    top: 0px;
+    left: 6%;
+    top: 70px;
+}
+
+.ProductView .title p {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.ProductView .banner {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ProductView .product-list-layout {
+    width: 100%;
+
+    display: flex;
+    padding: 0px 2%;
+    position: relative;
+}
+
+.ProductView .product-side-category-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    padding-top: 48px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.ProductView .product-list-layout .product-side {
+    flex-basis: 282px;
+    width: 282px;
+    min-width: 282px;
+    padding-left: 32px;
+    position: relative;
+}
+
+.ProductView .product-list-layout .product-side .text-highlight {
+    color: #C89F65!important;
+    font-weight: 600;
+}
+
+
+.ProductView .product-list-layout .product-side .product-side-category{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.ProductView .product-list-layout .product-side .product-side-category .cate-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ProductView .product-list-layout .product-side .product-side-category .cate-list .search {
+    position: relative;
+}
+
+.ProductView .product-list-layout .product-side .product-side-category .cate-list .search input{
+    padding: 8px;
+    width: 100%;
+}
+
+.ProductView .product-list-layout .product-side .product-side-category .cate-list .search i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    cursor: pointer;
+}
+
+.ProductView .product-list-layout .product-side .product-side-category .cate-list .cate-item {
+    padding: 8px 0px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+
+.ProductView .product-list-layout .product-side .product-side-filter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductView .product-list-layout .product-side .product-side-filter .product-side-filter-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.ProductView .product-list-layout .product-side .product-side-filter .filter-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ProductView .product-list-layout .product-side .product-side-filter .filter-list .filter-item {
+    padding: 8px 0px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px; 
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+}
+
+.ProductView .product-list-layout .product-side .product-side-filter .filter-list .filter-item input {
+    width: 18px;
+    height: 18px;
+}
+
+.ProductView .product-list-layout .product-side .product-side-filter .product-side-filter-item .title-filter  {
+    color: #C89F65!important;
+    margin: 0px 7px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 6px 0px;
+}
+
+
+
+
+.ProductView .product-list-layout .product-side .title-side {
+    margin-bottom: 0px;
+}
+
+.ProductView .product-list-layout .product-side .title-side h4 {
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.ProductView .product-list-layout .product-list {
+    flex-grow: 1;
+  
+    padding: 10px 20px;
+}
+
+
+.ProductView .product-list-layout .product-list .product-list-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: -10px;
+}
+
+.ProductView .product-list-layout .product-list .product-list-inner .product-item {
+    flex-basis: calc(25% - 10px);
+    min-width: calc(25% - 10px);
+    height: 380px;
+    flex-shrink: 1;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.ProductView .product-list-layout .product-list .product-list-inner .product-item:hover {
+    filter: brightness(90%);
+}
+
+
+.sticky-container {
+    width: 100%;
+    height: 10%;
+    position: sticky;
+    padding-top: 2%;
+    top: 10%;
+} 
+

@@ -1,0 +1,18 @@
+const express = require("express")
+const router = express.Router();
+
+const OrderController = require("../controllers/OrderController.js")
+
+router.post('/create', OrderController.create);
+
+router.use('/update/:id', OrderController.update);
+
+// router.use('/detail/:alias', CategoryController.detail);
+
+router.use('/delete/:id', OrderController.delete);
+
+router.get('/search/:option', OrderController.search);
+
+router.use('/', OrderController.index);
+
+module.exports = router;

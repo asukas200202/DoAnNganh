@@ -1,0 +1,55 @@
+.SelfCourseManagement_list {
+    padding: 0px 5%;
+
+    height: 80vh;
+}
+
+
+.SelfCourseManagement_list .SelfCourseManagement-container {
+    width: 100%;
+    height: 100%;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SelfCourseManagement_list .SelfCourseManagement-container .title {
+    height: 10%;
+    flex-basis: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.SelfCourseManagement_list .SelfCourseManagement-container .title h2 {
+    font-weight: 600;
+    margin: 0;
+}
+
+.SelfCourseManagement_list .SelfCourseManagement-container .main {
+    width: 100%;
+
+    flex-grow: 1;
+}
+
+
+.SelfCourseManagement_list .SelfCourseManagement-container .main .product-list .product-list-inner{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-right: -10px;
+}
+
+.SelfCourseManagement_list .SelfCourseManagement-container  .product-item {
+    cursor: pointer;
+    flex-basis: calc(20% - 10px);
+    min-width:  calc(20% - 10px);
+    display: flex;
+    justify-content: center;
+}
+
+.SelfCourseManagement_list .SelfCourseManagement-container .main .product-list .product-list-inner .product-item:hover {
+    filter: brightness(92%);
+}

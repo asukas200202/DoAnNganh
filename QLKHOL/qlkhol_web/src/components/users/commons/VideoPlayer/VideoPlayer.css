@@ -1,0 +1,29 @@
+#video-modal {
+    width: 80%;
+    z-index: 1000;
+    padding: 0!important;
+    overflow: hidden!important;
+    margin: 0 auto;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+.video-close {
+
+}
+
+.video-close i {
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    z-index: 100000;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.591);
+}
+
+.video-close i:hover {
+    color: rgba(0, 0, 0, 0.701);
+}

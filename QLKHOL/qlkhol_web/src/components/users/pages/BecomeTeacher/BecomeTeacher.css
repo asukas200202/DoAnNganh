@@ -1,0 +1,91 @@
+.BecomeTeacher {
+    width: 100%;
+    height: 700px;
+    max-height: 600px;
+    top: 13%;
+    padding: 0px 5%;
+}
+
+.BecomeTeacher .register-container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.BecomeTeacher .register-container .image {
+    flex-basis: 40%;
+    flex-shrink: 1;
+    min-width: 40%;
+    height: 100%;
+}
+
+.BecomeTeacher .register-container .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.BecomeTeacher .rules-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.BecomeTeacher .rules-content .rules-list {
+    padding:0px 4%;
+    padding-right: 6%;
+    max-height: 60%;
+    overflow: auto;
+}
+
+.BecomeTeacher .rules-content .sub-title {
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: rgba(36, 35, 35, 0.857);
+}
+
+.BecomeTeacher .rules-content ul {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.BecomeTeacher .rules-content ul li {
+    font-weight: 400;
+    padding-left: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.BecomeTeacher h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.BecomeTeacher .register-container  .rules-content .content {
+    flex-grow: 1;
+
+    background-color: rgba(196, 188, 188, 0.229);
+    padding: 4% 10%;
+    height: 65%;
+
+}
+
+.rules-confirm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.rules-confirm  button {
+    padding: 14px 50px;
+    border: none;
+}

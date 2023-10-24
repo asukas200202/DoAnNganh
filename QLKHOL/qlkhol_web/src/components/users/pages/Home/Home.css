@@ -1,0 +1,53 @@
+.home-content {
+    height: 800px;
+    background-color: #FFFFFF;
+    padding: 0px 5%;
+    padding: 4% 0px;
+}
+
+.home-content .section-1 h2 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.home-content .section-1 p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section-1 .section-list {
+    display: flex;
+    padding: 0px 5%;
+    gap: 10px;
+}
+
+.section-1 .section-item {
+    flex-basis: 33.333%;
+    height: 400px;
+    position: relative;
+}
+
+.section-1 .section-item:hover p {
+    opacity: 1;
+}
+
+.section-1 .section-item p {
+    font-size: 30px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: 0.3s;
+}
+.section-1 .section-item .image {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+.section-1 .section-item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

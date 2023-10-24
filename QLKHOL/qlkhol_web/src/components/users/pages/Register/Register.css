@@ -1,0 +1,80 @@
+.Register {
+    padding: 40px 0px;
+    margin-top: 70px;
+}
+.Register .register-container {
+    width: 373px;
+    margin: 0 auto;
+}
+
+.Register .register-container .title {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.Register .register-container .register-field p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+} 
+
+.Register .register-container .register-field input {
+    outline: none;
+    width: 100%;
+    height: 60px;
+    padding: 0px 10px;
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 8px !important;
+}
+
+.register-field button {
+    outline: none;
+    width: 100%;
+    height: 60px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 8px !important;
+    margin-top: 40px;
+    transition: 0.1s;
+}
+
+.register-field button:hover {
+    background-color: #C89F65;
+    color: white;
+    transition: 0.1s;
+}
+
+.Register .verify-container {
+    width: 373px;
+    margin: 0 auto;
+}
+
+.Register .verify-container .title {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.Register .verify-container .register-field p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+} 
+
+.Register .verify-container .register-field input {
+    outline: none;
+    width: 100%;
+    height: 60px;
+    padding: 0px 10px;
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 8px !important;
+}

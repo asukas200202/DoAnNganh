@@ -1,0 +1,222 @@
+.ReactModal__Overlay {
+    background-color: rgba(26, 26, 26, 0.653)!important;
+    z-index: 1000;
+}
+
+
+.PMEdit {
+    z-index: 1000;
+}
+
+.ReactModalPortal .PMEdit-close {
+    width: 40px; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: rgba(72, 70, 70, 0.804);
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+}
+
+
+.ReactModalPortal .PMEdit-content {
+    width: calc(100% - 40px);
+    height: 90%;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.ReactModalPortal .PMEdit-content .title {
+    flex-basis: 60px;
+    min-height: 60px;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.ReactModalPortal .PMEdit-content h4 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.ReactModalPortal .PMEdit-content .create-container {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    height: calc(100% - 60px);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.ReactModalPortal .PMEdit-content .create-container .lession-list {
+
+    flex-grow: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1%;
+}
+
+.ReactModalPortal .PMEdit-content .create-container .lession-list h3 {
+    font-size: 20px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+
+.ReactModalPortal .PMEdit-content .create-container .lession-list .lession-item {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.853);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ReactModalPortal .PMEdit-content .create-container .lession-list .lession-item i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ReactModalPortal .PMEdit-content .create-container .create-form {
+    width: 60%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.ReactModalPortal .PMEdit-content .create-container .create-form  .create-content {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.ReactModalPortal .PMEdit-content .create-container .create-form  .create-content  .fields-group {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+
+
+.ReactModalPortal .PMEdit-content .create-container .editor {
+    flex-grow: 1;
+    height: 100%;
+}
+
+
+.ReactModalPortal .PMEdit-content .create-form .field-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.ReactModalPortal .PMEdit-content  .action-button {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.ReactModalPortal .PMEdit-content .action-button button {
+    padding: 6px 20px;
+    border: none;
+    background-color: rgba(7, 103, 7, 0.898);
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.ReactModalPortal .PMEdit-content .save-button button:nth-child(1) {
+    background-color: rgba(179, 18, 18, 0.9);
+}
+
+.ReactModalPortal .PMEdit-content .create-form .field-input p {
+    margin-bottom: 0px;
+    color:rgba(69, 68, 68, 0.857);
+    margin-bottom: 5px;
+}
+
+.ReactModalPortal .PMEdit-content .create-form .field-input p span {
+
+    color: rgba(255, 0, 0, 0.627);
+}
+
+.ReactModalPortal .PMEdit-content .create-form .field-input input{
+    flex-grow: 1;
+    padding: 4px 10px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+}
+
+.ReactModalPortal .PMEdit-content .create-form .field-input textarea {
+    padding: 10px;
+    line-height: normal;
+    border: 1px solid hsl(0, 0%, 80%);
+}
+
+.ReactModalPortal .PMEdit-close:hover { 
+    color: black;
+}
+
+
+.react-datepicker__input-container input {
+    width: 100%;
+    height: 38px;
+}
+
+.ReactModalPortal .PMEdit-content .image-upload {
+    width: 50%;
+    height: 100%;
+    padding: 20px 0px;
+    padding-left: 40px;
+    display: flex;
+
+}
+
+.ReactModalPortal .PMEdit-content .image-upload-container {
+    width: 30%;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ReactModalPortal .PMEdit-content .image-container {
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #ccc;
+
+} 
+.ReactModalPortal .PMEdit-content .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.lession-container {
+    background-color: red;
+}

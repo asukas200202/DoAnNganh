@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../public/fonts/SFPRODISPLAYBLACKITALIC.OTF');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../public/fonts/SFPRODISPLAYBOLD.OTF');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../public/fonts/SFPRODISPLAYREGULAR.OTF');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: SF Pro Display;
+}
+
+p {
+  margin: 0;
+}
+
+.App {
+  position: relative;
+  height: 100%;
+}

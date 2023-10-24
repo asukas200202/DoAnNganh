@@ -1,0 +1,133 @@
+.Payment {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+}
+
+.Payment .qr-code {
+    flex-basis: 40%;
+    flex-shrink: 1;
+    min-width: 40%;
+    height: 100%;
+    overflow: hidden;
+    border-right: 1px solid #ddd;
+}
+
+.Payment .qr-code img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.Payment .payment-container {
+    flex-grow: 1;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.Payment .payment-container .payment-progress {
+    flex-grow: 1;
+}
+
+.Payment .payment-container .payment-progress .title {
+    margin-bottom: 40px;
+}
+
+.Payment .payment-container .payment-progress .title h2{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.Payment .payment-container .title {
+    margin-bottom: 40px;
+
+}
+
+.Payment .payment-container .title h2{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.Payment .payment-container .payment-list {
+    width: 100%;
+    
+}
+
+.Payment .payment-container .payment-list .product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-height: 60%;
+    overflow: auto;
+}
+
+.Payment .payment-container .payment-list .sub-total {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.Payment .payment-container .payment-list .confirm-checkout {
+    width: 100%;
+    background-color: rgba(201, 17, 17, 0.792);
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.Payment .payment-container .payment-list .sub-total span:nth-child(1) {
+    font-size: 28px;
+}
+
+.Payment .payment-container .payment-list .sub-total span:nth-child(2) {
+    font-size: 32px;
+    font-weight: 600;
+    color: #DCA236;
+    
+}
+
+.Payment .payment-container .payment-list .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 16px;
+}
+
+.Payment .payment-container .payment-list .item-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Payment .payment-container .payment-list .item span:nth-child(1) {
+    font-size: 16px;
+}
+
+.Payment .payment-container .payment-list .item span:nth-child(2) {
+    font-size: 16px;
+}
+
+.Payment .payment-container .payment-list .item-field .price {
+    font-weight: 600;
+    font-size: 20px!important;
+    color: rgba(212, 142, 10, 0.82);
+}
